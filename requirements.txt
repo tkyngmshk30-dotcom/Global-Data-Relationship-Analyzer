@@ -1,0 +1,8 @@
+streamlit
+wbgapi
+pandas
+numpy
+statsmodels
+plotly
+requests
+certifi
