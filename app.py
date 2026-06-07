@@ -101,150 +101,48 @@ COUNTRY_GROUPS = {
 }
 
 # ==================================================
-# Indicator lists by database
+# Indicator lists
 # ==================================================
 WORLD_BANK_INDICATORS = {
-    "FDI inflows (current US$)": {
-        "code": "BX.KLT.DINV.CD.WD",
-        "short": "WB_FDI_Inflow",
-    },
-    "High-technology exports (% of manufactured exports)": {
-        "code": "TX.VAL.TECH.MF.ZS",
-        "short": "WB_HighTech_Exports",
-    },
-    "GDP per capita (current US$)": {
-        "code": "NY.GDP.PCAP.CD",
-        "short": "WB_GDP_per_capita",
-    },
-    "GDP growth (annual %)": {
-        "code": "NY.GDP.MKTP.KD.ZG",
-        "short": "WB_GDP_growth",
-    },
-    "Trade (% of GDP)": {
-        "code": "NE.TRD.GNFS.ZS",
-        "short": "WB_Trade_GDP",
-    },
-    "Exports of goods and services (% of GDP)": {
-        "code": "NE.EXP.GNFS.ZS",
-        "short": "WB_Exports_GDP",
-    },
-    "Imports of goods and services (% of GDP)": {
-        "code": "NE.IMP.GNFS.ZS",
-        "short": "WB_Imports_GDP",
-    },
-    "Manufacturing, value added (% of GDP)": {
-        "code": "NV.IND.MANF.ZS",
-        "short": "WB_Manufacturing_GDP",
-    },
-    "Industry, value added (% of GDP)": {
-        "code": "NV.IND.TOTL.ZS",
-        "short": "WB_Industry_GDP",
-    },
-    "Services, value added (% of GDP)": {
-        "code": "NV.SRV.TOTL.ZS",
-        "short": "WB_Services_GDP",
-    },
-    "Internet users (% of population)": {
-        "code": "IT.NET.USER.ZS",
-        "short": "WB_Internet_Users",
-    },
-    "Mobile cellular subscriptions (per 100 people)": {
-        "code": "IT.CEL.SETS.P2",
-        "short": "WB_Mobile_Subscriptions",
-    },
-    "Tertiary school enrollment (% gross)": {
-        "code": "SE.TER.ENRR",
-        "short": "WB_Tertiary_Enrollment",
-    },
-    "Education expenditure (% of GDP)": {
-        "code": "SE.XPD.TOTL.GD.ZS",
-        "short": "WB_Education_Expenditure",
-    },
-    "R&D expenditure (% of GDP)": {
-        "code": "GB.XPD.RSDV.GD.ZS",
-        "short": "WB_R_and_D",
-    },
-    "Patent applications, residents": {
-        "code": "IP.PAT.RESD",
-        "short": "WB_Patent_Applications",
-    },
-    "CO2 emissions per capita": {
-        "code": "EN.ATM.CO2E.PC",
-        "short": "WB_CO2_per_capita",
-    },
-    "Urban population (% of total population)": {
-        "code": "SP.URB.TOTL.IN.ZS",
-        "short": "WB_Urban_Population",
-    },
-    "Population, total": {
-        "code": "SP.POP.TOTL",
-        "short": "WB_Population",
-    },
-    "Unemployment (% of labor force)": {
-        "code": "SL.UEM.TOTL.ZS",
-        "short": "WB_Unemployment",
-    },
+    "FDI inflows (current US$)": {"code": "BX.KLT.DINV.CD.WD", "short": "WB_FDI_Inflow"},
+    "High-technology exports (% of manufactured exports)": {"code": "TX.VAL.TECH.MF.ZS", "short": "WB_HighTech_Exports"},
+    "GDP per capita (current US$)": {"code": "NY.GDP.PCAP.CD", "short": "WB_GDP_per_capita"},
+    "GDP growth (annual %)": {"code": "NY.GDP.MKTP.KD.ZG", "short": "WB_GDP_growth"},
+    "Trade (% of GDP)": {"code": "NE.TRD.GNFS.ZS", "short": "WB_Trade_GDP"},
+    "Exports of goods and services (% of GDP)": {"code": "NE.EXP.GNFS.ZS", "short": "WB_Exports_GDP"},
+    "Imports of goods and services (% of GDP)": {"code": "NE.IMP.GNFS.ZS", "short": "WB_Imports_GDP"},
+    "Manufacturing, value added (% of GDP)": {"code": "NV.IND.MANF.ZS", "short": "WB_Manufacturing_GDP"},
+    "Industry, value added (% of GDP)": {"code": "NV.IND.TOTL.ZS", "short": "WB_Industry_GDP"},
+    "Services, value added (% of GDP)": {"code": "NV.SRV.TOTL.ZS", "short": "WB_Services_GDP"},
+    "Internet users (% of population)": {"code": "IT.NET.USER.ZS", "short": "WB_Internet_Users"},
+    "Mobile cellular subscriptions (per 100 people)": {"code": "IT.CEL.SETS.P2", "short": "WB_Mobile_Subscriptions"},
+    "Tertiary school enrollment (% gross)": {"code": "SE.TER.ENRR", "short": "WB_Tertiary_Enrollment"},
+    "Education expenditure (% of GDP)": {"code": "SE.XPD.TOTL.GD.ZS", "short": "WB_Education_Expenditure"},
+    "R&D expenditure (% of GDP)": {"code": "GB.XPD.RSDV.GD.ZS", "short": "WB_R_and_D"},
+    "Patent applications, residents": {"code": "IP.PAT.RESD", "short": "WB_Patent_Applications"},
+    "CO2 emissions per capita": {"code": "EN.ATM.CO2E.PC", "short": "WB_CO2_per_capita"},
+    "Urban population (% of total population)": {"code": "SP.URB.TOTL.IN.ZS", "short": "WB_Urban_Population"},
+    "Population, total": {"code": "SP.POP.TOTL", "short": "WB_Population"},
+    "Unemployment (% of labor force)": {"code": "SL.UEM.TOTL.ZS", "short": "WB_Unemployment"},
 }
 
 OWID_INDICATORS = {
-    "Life expectancy": {
-        "slug": "life-expectancy",
-        "short": "OWID_Life_Expectancy",
-    },
-    "Population": {
-        "slug": "population",
-        "short": "OWID_Population",
-    },
-    "GDP per capita": {
-        "slug": "gdp-per-capita-worldbank",
-        "short": "OWID_GDP_per_capita",
-    },
-    "CO2 emissions per capita": {
-        "slug": "co2-emissions-per-capita",
-        "short": "OWID_CO2_per_capita",
-    },
-    "Annual CO2 emissions": {
-        "slug": "annual-co2-emissions-per-country",
-        "short": "OWID_Annual_CO2",
-    },
-    "Share of population using the Internet": {
-        "slug": "share-of-individuals-using-the-internet",
-        "short": "OWID_Internet_Users",
-    },
+    "Life expectancy": {"slug": "life-expectancy", "short": "OWID_Life_Expectancy"},
+    "Population": {"slug": "population", "short": "OWID_Population"},
+    "GDP per capita": {"slug": "gdp-per-capita-worldbank", "short": "OWID_GDP_per_capita"},
+    "CO2 emissions per capita": {"slug": "co2-emissions-per-capita", "short": "OWID_CO2_per_capita"},
+    "Annual CO2 emissions": {"slug": "annual-co2-emissions-per-country", "short": "OWID_Annual_CO2"},
+    "Share of population using the Internet": {"slug": "share-of-individuals-using-the-internet", "short": "OWID_Internet_Users"},
 }
 
 GAPMINDER_INDICATORS = {
-    "GDP per capita": {
-        "type": "column",
-        "column": "gdpPercap",
-        "short": "GAP_GDP_per_capita",
-    },
-    "Life expectancy": {
-        "type": "column",
-        "column": "lifeExp",
-        "short": "GAP_Life_Expectancy",
-    },
-    "Population": {
-        "type": "column",
-        "column": "pop",
-        "short": "GAP_Population",
-    },
-    "Total GDP estimated": {
-        "type": "derived",
-        "short": "GAP_Total_GDP",
-    },
-    "Population growth rate (%)": {
-        "type": "derived",
-        "short": "GAP_Population_Growth",
-    },
-    "GDP per capita growth rate (%)": {
-        "type": "derived",
-        "short": "GAP_GDP_per_capita_Growth",
-    },
-    "Life expectancy change": {
-        "type": "derived",
-        "short": "GAP_Life_Expectancy_Change",
-    },
+    "GDP per capita": {"type": "column", "column": "gdpPercap", "short": "GAP_GDP_per_capita"},
+    "Life expectancy": {"type": "column", "column": "lifeExp", "short": "GAP_Life_Expectancy"},
+    "Population": {"type": "column", "column": "pop", "short": "GAP_Population"},
+    "Total GDP estimated": {"type": "derived", "short": "GAP_Total_GDP"},
+    "Population growth rate (%)": {"type": "derived", "short": "GAP_Population_Growth"},
+    "GDP per capita growth rate (%)": {"type": "derived", "short": "GAP_GDP_per_capita_Growth"},
+    "Life expectancy change": {"type": "derived", "short": "GAP_Life_Expectancy_Change"},
 }
 
 DATABASES = {
@@ -278,21 +176,16 @@ def fetch_world_bank(indicator_code, variable_name, countries, start_year, end_y
         time=range(start_year, end_year + 1),
         labels=False
     )
-
     data = data.stack().reset_index()
     data.columns = ["Country", "Year", variable_name]
     data["Year"] = data["Year"].str.replace("YR", "").astype(int)
-
     return data
 
 
 @st.cache_data
 def fetch_owid(slug, variable_name, countries, start_year, end_year):
     url = f"https://ourworldindata.org/grapher/{slug}.csv"
-
-    headers = {
-        "User-Agent": "Mozilla/5.0"
-    }
+    headers = {"User-Agent": "Mozilla/5.0"}
 
     try:
         response = requests.get(
@@ -302,7 +195,6 @@ def fetch_owid(slug, variable_name, countries, start_year, end_year):
             verify=certifi.where()
         )
         response.raise_for_status()
-
     except requests.exceptions.SSLError:
         response = requests.get(
             url,
@@ -474,6 +366,12 @@ def prepare_merged_data(df_x, df_y):
 # ==================================================
 st.sidebar.header("Analysis Settings")
 
+analysis_scope = st.sidebar.radio(
+    "Select analysis scope",
+    ["Single-country analysis", "Multi-country analysis"],
+    index=1
+)
+
 group = st.sidebar.selectbox(
     "Select a country group",
     list(COUNTRY_GROUPS.keys())
@@ -481,12 +379,21 @@ group = st.sidebar.selectbox(
 
 country_options = COUNTRY_GROUPS[group]
 
-selected_countries = st.sidebar.multiselect(
-    "Select countries",
-    options=list(country_options.keys()),
-    default=list(country_options.keys()),
-    format_func=lambda code: f"{code} - {country_options[code]}"
-)
+if analysis_scope == "Single-country analysis":
+    selected_country = st.sidebar.selectbox(
+        "Select one country",
+        options=list(country_options.keys()),
+        format_func=lambda code: f"{code} - {country_options[code]}"
+    )
+    selected_countries = [selected_country]
+
+else:
+    selected_countries = st.sidebar.multiselect(
+        "Select countries",
+        options=list(country_options.keys()),
+        default=list(country_options.keys()),
+        format_func=lambda code: f"{code} - {country_options[code]}"
+    )
 
 custom_codes = st.sidebar.text_input(
     "Add custom ISO3 country codes, separated by commas",
@@ -553,17 +460,27 @@ lag_years = st.sidebar.selectbox(
     index=0
 )
 
-analysis_method = st.sidebar.selectbox(
-    "Select analysis method",
-    [
+if analysis_scope == "Single-country analysis":
+    available_methods = [
+        "Correlation only",
+        "Simple OLS",
+        "OLS + year fixed effects",
+        "Quadratic OLS",
+    ]
+else:
+    available_methods = [
         "Correlation only",
         "Simple OLS",
         "OLS + country fixed effects",
         "OLS + year fixed effects",
         "OLS + country and year fixed effects",
         "Quadratic OLS",
-    ],
-    index=2
+    ]
+
+analysis_method = st.sidebar.selectbox(
+    "Select analysis method",
+    available_methods,
+    index=1 if analysis_scope == "Single-country analysis" else 2
 )
 
 run_button = st.sidebar.button("Run analysis")
@@ -580,12 +497,20 @@ if run_button:
             for code in custom_codes.split(",")
             if code.strip()
         ]
-        countries.extend(additional_codes)
+
+        if analysis_scope == "Single-country analysis":
+            if len(additional_codes) > 0:
+                countries = [additional_codes[0]]
+        else:
+            countries.extend(additional_codes)
 
     countries = list(dict.fromkeys(countries))
 
-    if len(countries) < 2:
-        st.error("Please select at least two countries.")
+    if len(countries) < 1:
+        st.error("Please select at least one country.")
+
+    elif analysis_scope == "Multi-country analysis" and len(countries) < 2:
+        st.error("Please select at least two countries for multi-country analysis.")
 
     elif start_year >= end_year:
         st.error("The end year must be later than the start year.")
@@ -632,6 +557,12 @@ if run_button:
                     st.error("No available data for the selected settings.")
                     st.stop()
 
+                if len(df) < 10:
+                    st.warning(
+                        "The number of available observations is small. "
+                        "The result may be unstable."
+                    )
+
                 correlation = df[[x_model_var, y_var]].corr().iloc[0, 1]
 
                 formula = build_formula(y_var, x_model_var, analysis_method)
@@ -643,6 +574,7 @@ if run_button:
 
                 history_record = {
                     "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    "analysis_scope": analysis_scope,
                     "country_group": group,
                     "countries": ", ".join(countries),
                     "start_year": int(start_year),
@@ -689,10 +621,13 @@ if run_button:
             st.subheader("1. Data Overview")
 
             col1, col2, col3, col4 = st.columns(4)
-            col1.metric("Observations", len(df))
-            col2.metric("Countries", len(countries))
-            col3.metric("X database", x_database_type)
-            col4.metric("Y database", y_database_type)
+            col1.metric("Analysis scope", analysis_scope.replace(" analysis", ""))
+            col2.metric("Observations", len(df))
+            col3.metric("Countries", len(countries))
+            col4.metric("Correlation", f"{correlation:.3f}")
+
+            st.write("Selected countries:")
+            st.code(", ".join(countries))
 
             st.write("Selected X variable:")
             st.code(f"{x_database_type} | {x_indicator_name}")
@@ -717,6 +652,17 @@ if run_button:
             st.subheader("2. Analysis Method")
 
             st.write(f"Selected method: **{analysis_method}**")
+
+            if analysis_scope == "Single-country analysis":
+                st.info(
+                    "Single-country analysis focuses on changes over time within one country. "
+                    "Country fixed effects are not used because there is only one country."
+                )
+            else:
+                st.info(
+                    "Multi-country analysis compares country-year observations across multiple countries. "
+                    "Country fixed effects can be used to control for stable differences between countries."
+                )
 
             if lag_years > 0:
                 st.write(
@@ -822,7 +768,7 @@ if run_button:
 
 else:
     st.info(
-        "Select countries, years, X/Y databases, indicators, and an analysis method from the sidebar, then click 'Run analysis'."
+        "Select analysis scope, countries, years, X/Y databases, indicators, and an analysis method from the sidebar, then click 'Run analysis'."
     )
 
 # ==================================================
